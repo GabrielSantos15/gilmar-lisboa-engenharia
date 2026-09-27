@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  
+
   --font-sans: var(--font-jost), sans-serif;
   --font-title: var(--font-barlow-condensed), sans-serif;
 
@@ -21,4 +21,14 @@
   --color-muted-foreground: #d4d4d4;
 
   --color-border: #2e2e2e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

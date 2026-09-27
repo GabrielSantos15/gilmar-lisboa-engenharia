@@ -19,8 +19,8 @@ export function Carousel() {
   };
 
   return (
-    <section className="bg-background px-4 py-10 md:px-12 lg:px-20 overflow-hidden">
-      <div className="mx-auto max-w-[1600px] flex flex-col relative">
+    <section className="bg-background py-10 overflow-hidden">
+      <div className="mx-auto flex flex-col relative">
 
         {/* Carousel Track */}
         <div

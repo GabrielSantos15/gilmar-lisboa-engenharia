@@ -6,7 +6,6 @@ export default function WhatsappButton() {
   const part3 = "4002";  
   const part4 = "8922";
 
-  // junta dinamicamente
   const whatsappNumber = `${part1}${part2}${part3}${part4}`;
 
   const message = encodeURIComponent(

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import type { Project } from "../types/project";
+import { LuArrowUpRight } from "react-icons/lu";
 
 interface ProjectCardProps {
   project: Project;
@@ -30,12 +31,11 @@ export function ProjectCard({ project }: ProjectCardProps) {
             {project.category} / {project.year}
           </p>
         </div>
-        <span
+        <LuArrowUpRight
           aria-hidden
           className="mt-1 shrink-0 text-muted transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary"
         >
-          →
-        </span>
+        </LuArrowUpRight>
       </div>
     </article>
   );
