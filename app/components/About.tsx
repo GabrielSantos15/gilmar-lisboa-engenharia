@@ -4,7 +4,7 @@ import AnimatedLogo from "./AnimatedLogo";
 
 export default function About() {
   return (
-    <section className="w-full bg-background py-24 px-6 lg:px-16 flex justify-center items-center" id="quem-somos">
+    <section className="w-full bg-background py-24 px-6 lg:px-16 flex justify-center items-center min-h-[75vh]" id="quem-somos">
       <div className="w-full max-w-[1600px] grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
 
         <div className="lg:col-span-5 flex justify-center lg:justify-end">

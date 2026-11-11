@@ -5,7 +5,7 @@ import Bar from "./Bar";
 
 export default function Contact() {
     return (
-        <section id="contato" className="w-full bg-[#303030] py-24 px-6 lg:px-16 flex justify-center border-t border-white/10">
+        <section id="contato" className="w-full bg-[#303030] py-24 px-6 lg:px-16 flex justify-center border-t border-white/10 min-h-[80vh]">
             <div className="w-full max-w-[1400px] grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
 
                 <article className="flex flex-col items-start gap-8">

@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const NAV_ITEMS = [
   { label: "Quem Somos", href: "/#quem-somos" },
-  { label: "Projetos", href: "/projetos" },
+  { label: "Projetos", href: "/#projetos" },
   { label: "Serviços", href: "/#servicos" },
 ];
 
