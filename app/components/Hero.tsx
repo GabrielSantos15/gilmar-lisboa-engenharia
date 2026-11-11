@@ -12,7 +12,7 @@ export default function Hero() {
         <article className="relative z-10 flex flex-col gap-4 items-start ">
           <Bar text="Engenharia Civil" />
 
-          <h2 className="text-white text-5xl sm:text-6xl lg:text-8xl xl:text-9xl font-title uppercase font-extrabold leading-none">
+          <h2 className="text-white text-6xl sm:text-6xl lg:text-8xl xl:text-9xl font-title uppercase font-extrabold leading-none">
             Projetos que <br />
             <span className="text-primary">marcam</span>
           </h2>
