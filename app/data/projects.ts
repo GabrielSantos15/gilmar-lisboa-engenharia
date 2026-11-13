@@ -3,7 +3,7 @@ import type { Project } from "../types/project";
 export const projects: Project[] = [
   {
     slug: "residencia-contemporanea-boituva",
-    title: "Residência Unifamiliar Contemporânea",
+    title: "Residência Unifamiliar de Alto Padrão",
     category: "Projetos Residenciais",
     year: "2026",
     location: "Condomínio Fechado — Boituva, SP",
@@ -59,7 +59,7 @@ export const projects: Project[] = [
   },
   {
     slug: "residencia-rustica-contemporanea",
-    title: "Residência de Campo Rústica Contemporânea",
+    title: "Residência de Campo Rústica Moderna",
     category: "Projetos Residenciais",
     year: "2024",
     location: "Boituva, SP",
@@ -87,12 +87,12 @@ export const projects: Project[] = [
   },
   {
     slug: "residencia-moderna-integrada",
-    title: "Residência Contemporânea com Ambientes Integrados",
+    title: "Residência Moderna com Ambientes Integrados",
     category: "Projetos Residenciais",
     location: "Condomínio Fechado — Boituva, SP",
     client: "Particular",
     description:
-      "Projeto residencial unifamiliar focado no máximo conforto visual e espacial. A arquitetura destaca-se pela fachada contemporânea, pé-direito elevado no living e cozinha americana planejada com ilha em mármore. A distribuição inteligente dos espaços otimiza a ventilação e a entrada de iluminação natural, conectando a área social à área íntima com elegância e alta eficiência construtiva.",
+      "Projeto residencial unifamiliar focado no máximo conforto visual e espacial. A arquitetura destaca-se pela fachada moderna, pé-direito elevado no living e cozinha americana planejada com ilha em mármore. A distribuição inteligente dos espaços otimiza a ventilação e a entrada de iluminação natural, conectando a área social à área íntima com elegância e alta eficiência construtiva.",
     tags: [
       "Projeto Arquitetônico",
       "Pé-Direito Elevado",
@@ -115,7 +115,7 @@ export const projects: Project[] = [
   },
   {
     slug: "residencial-multifamiliar-ipero",
-    title: "Residencial Multifamiliar Contemporâneo",
+    title: "Residencial Multifamiliar Moderno",
     category: "Projetos Multifamiliares",
     location: "Iperó, SP",
     client: "Investidor Privado",
@@ -173,18 +173,18 @@ export const projects: Project[] = [
     ],
     coverImage: "/images/projects/residencia-barbara-simonetti/1.png",
     gallery: [
-      "/images/projects/residencia-barbara-simonetti/1.png", // Fachada principal
+      "/images/projects/residencia-barbara-simonetti/1.png",
       "/images/projects/residencia-barbara-simonetti/2.png",
-      "/images/projects/residencia-barbara-simonetti/3.png", // Escritório / Home Office
+      "/images/projects/residencia-barbara-simonetti/3.png",
       "/images/projects/residencia-barbara-simonetti/4.png",
-      "/images/projects/residencia-barbara-simonetti/5.png", // Banheiros
+      "/images/projects/residencia-barbara-simonetti/5.png",
       "/images/projects/residencia-barbara-simonetti/6.png",
       "/images/projects/residencia-barbara-simonetti/7.png",
       "/images/projects/residencia-barbara-simonetti/8.png",
-      "/images/projects/residencia-barbara-simonetti/9.png", // Cozinha / Living
+      "/images/projects/residencia-barbara-simonetti/9.png",
       "/images/projects/residencia-barbara-simonetti/10.png",
       "/images/projects/residencia-barbara-simonetti/11.png",
-      "/images/projects/residencia-barbara-simonetti/12.png", // Suíte e Closet
+      "/images/projects/residencia-barbara-simonetti/12.png",
       "/images/projects/residencia-barbara-simonetti/13.png",
       "/images/projects/residencia-barbara-simonetti/14.png",
     ],
